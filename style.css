@@ -52,7 +52,7 @@ img {
 
 .element {
     display: flex;
-    align-items: stretch;
+    align-items: start;
     width: 100%;
     margin-bottom: 100px;
     gap: 0px;
@@ -65,6 +65,8 @@ img {
     color: #F9FAF8;
     flex: 1;
     margin-right: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .element p {
@@ -72,6 +74,8 @@ img {
     color: rgba(238, 238, 238, 0.815);
     flex: 1;
     margin-right: 150px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 button {
@@ -86,6 +90,8 @@ button {
     flex: 1;
     max-width: 256px;
     max-height: 48px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-top: 20px;
 }
 
 .text {
@@ -93,5 +99,38 @@ button {
     flex-direction: column;
     justify-content: space-between;
     padding-right: 16px;
-    flex: 1;
+    gap: 18px;
+    height: 100%;
+}
+
+.second-block {
+    display: flex;
+    padding-left: 400px;
+    padding-right: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.second-block .header .head {
+    font-size: 52px;
+    color: #1F2937;
+    margin-left: 200px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
 }
