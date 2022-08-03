@@ -154,3 +154,25 @@ button {
     font-weight: normal;
     text-align: center;
 }
+
+.third-block {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+    width: 100%;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+#quote {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    margin-right: 560px;
+}
+
+#credit {
+    margin-top: 12px;
+    font-size: 18px;
+    margin-right: 200px;
+}
