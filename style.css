@@ -158,8 +158,9 @@ button {
 .third-block {
     display: flex;
     flex-direction: column;
-    padding: 100px 300px;
-    width: 100%;
+    padding: 100px 310px 100px 330px;
+    width: 75em;
+    margin: 0 -10px 0;
     background-color: #E5E7EB;
     align-items: center;
 }
@@ -168,11 +169,72 @@ button {
     font-weight: bolder;
     font-size: 36px;
     color: #1F2937;
-    margin-right: 560px;
 }
 
 #credit {
     margin-top: 12px;
     font-size: 18px;
-    margin-right: 200px;
+}
+
+.fourth-block {
+    display: flex;
+    padding: 100px 200px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    display: flex;
+    gap: 200px;
+    border-radius: 12px;
+}
+
+.blue-box .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#real-button {
+    align-self: baseline;
+    padding: 12px 28px;
+    font-size: 18px;
+    background-color: #3882F6;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 12px;
+    border: 3px solid white;
+    width: fit-content;
+    flex: 1;
+    max-width: 256px;
+    max-height: 48px;
+    box-shadow: none;
+}
+
+.blue-box .text #head {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.blue-box .text #content {
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
